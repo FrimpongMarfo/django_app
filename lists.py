@@ -9,7 +9,7 @@ even_numbers = list(filter(even, range(100)))
 
 print(even_numbers)
 
-squares = lambda x: pow(x, 2)
+squares = lambda x: pow(x, 3)
 
 square_numbers = list(map(squares, range(100)))
 
