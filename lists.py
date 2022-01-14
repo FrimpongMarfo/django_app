@@ -15,3 +15,7 @@ squares = lambda x: pow(x, 2)
 square_numbers = list(map(squares, range(100)))
 
 print(square_numbers)
+
+import numpy as np
+
+arr = np.random.random((4, 5))
